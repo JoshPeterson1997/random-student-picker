@@ -15,9 +15,10 @@ form.AddEventListener("submit", (event) => {
   event.preventDefault();
 });
 
-const newTrain = Object.fromEntries(new FormData(event.target));
+  const newTrain = Object.fromEntries(new FormData(event.target));
 
-trains.push(newTrain);
+  trains.push(newTrain);
+});
 
 document.querySelector(".button--jumbo").addEventListener("click", () => {
   console.log(getRandomIntInclusive(1, 10));
