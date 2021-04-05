@@ -21,5 +21,5 @@ form.AddEventListener("submit", (event) => {
 });
 
 document.querySelector(".button--jumbo").addEventListener("click", () => {
-  console.log(getRandomIntInclusive(1, 10));
+  console.log(trains[getRandomIntInclusive(0, trains.length)]);
 });
