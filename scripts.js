@@ -13,7 +13,6 @@ function getRandomIntInclusive(min, max) {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-});
 
 const newTrain = Object.fromEntries(new FormData(event.target));
 
