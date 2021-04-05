@@ -11,12 +11,14 @@ function getRandomIntInclusive(min, max) {
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-const newTrain = Object.fromEntries(new FormData(event.target));
+  const newTrain = Object.fromEntries(new FormData(event.target));
 
-trains.push(newTrain);
+  trains.push(newTrain);
+});
 
 document.querySelector(".button--jumbo").addEventListener("click", () => {
   const randomNum = getRandomIntInclusive(0, trains.length - 1);
+
+  // TODO: Use a template literals and interpolation to assemble the name as a string
   console.log(trains[randonNum]);
-  //
 });
