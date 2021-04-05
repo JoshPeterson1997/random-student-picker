@@ -22,7 +22,7 @@ form {
   height: 10vh;
   text-transform: uppercase;
   transition: a11 0.25s;
-  width: 20vw;
+  width: 40vw;
 }
 
 .button--jumbo:hover,
@@ -49,6 +49,14 @@ form {
 
 .flex--justify-center {
   justify-content: center;
+}
+
+.mt-medium {
+  margin-top: var(--medium-gap);
+}
+
+.text-center {
+  text-align: center;
 }
 
 .screen-header-text {
