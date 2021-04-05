@@ -20,5 +20,5 @@ const newTrain = Object.fromEntries(new FormData(event.target));
 trains.push(newTrain);
 
 document.querySelector(".button--jumbo").addEventListener("click", () => {
-  console.log("hello");
+  console.log(getRandomIntInclusive(1, 10));
 });
