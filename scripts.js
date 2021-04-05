@@ -5,9 +5,9 @@ const form = document.querySelector("form");
 const trains = [];
 
 function getRandomIntInclusive(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  const currentMin = min;
+  const currentMax = Math.floor(max);
+  return Math.floor(Math.random() * (currentMax - currentMin + 1) + min);
   // The maximum and minimum are both inclusive
 }
 
