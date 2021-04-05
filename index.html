@@ -3,20 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-
     <link rel="stylesheet" href="style.css" />
 
-    <!-- TODO: Update '<title>'. Whatever you add for 'h1' should be mentioned here. 🔍-->
-    <title>Random Student Picker</title>
+    <title>Train Form | Home</title>
   </head>
   <body>
-    <!-- TODO: Update 'h1' -->
-    <h1>Random Student Picker</h1>
+    <h1>Train Form</h1>
+    <div>
+      <form class="flex flex--column">
+        <div>
+          <label for="tbuilder" class="screen-reader-text">Train Builder</label
+          ><input placeholder="Train Builder" type="text" id="tbuilder" />
+        </div>
+        <div>
+          <label for="ttype" class="screen-reader-text">Train Type</label
+          ><input placeholder="Train Type" type="text" id="ttype" />
+        </div>
+        <button type="submit" class="button">Added Train!</button>
+        <button type="reset" class="button button--reset">Reset!</button>
+      </form>
+    </div>
     <script src="./scripts.js" type="module"></script>
   </body>
 </html>

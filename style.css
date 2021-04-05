@@ -1,1 +1,59 @@
+form {
+  border: solid thin black;
+  border-radius: 16px;
+  gap: 16px;
+  margin: auto 0;
+  padding: 8px;
+  width: 480px;
+}
+
+.button {
+  background-color: lightblue;
+  border: solid thin black;
+  border-radius: 16px;
+  color: black;
+  margin-top; 16px;
+  padding: 8px;
+}
+
+.button--jumbo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 10vh;
+  text-transform: uppercase;
+  transition: a11 0.25s;
+  width: 20vw;
+}
+
+.button--jumbo:hover,
+.buttom--jumbo:focus {
+  border-radius: 32px;
+}
+
+.button--reset{
+  background-color: orange;
+}
+
+.flex {
+  display: flex;
+  gap: var(--medium-gap);
+}
+
+.flex--align-center {
+  align-items: center;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+.flex--justify-center {
+  justify-content: center;
+}
+
+.screen-header-text {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
 
