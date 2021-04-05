@@ -1,6 +1,3 @@
-// TODO: Activate the 'random student' button to pick a random train
-// TODO: `log` a random train's name when the button is clicked
-
 const form = document.querySelector("form");
 const trains = [];
 
@@ -21,4 +18,5 @@ trains.push(newTrain);
 document.querySelector(".button--jumbo").addEventListener("click", () => {
   const randomNum = getRandomIntInclusive(0, trains.length - 1);
   console.log(trains[randonNum]);
+  //
 });
