@@ -1,4 +1,5 @@
 const form = document.querySelector("form");
+const p = document.querySelector("p");
 const trains = [];
 
 function getRandomIntInclusive(min, max) {
@@ -21,5 +22,5 @@ document.querySelector(".button--jumbo").addEventListener("click", () => {
   const randomName = trains[getRandomIntInclusive(0, trains.length - 1)];
 
   // Log the builder and type of the train using a template literal
-  console.log(`${randonName.tbuilder} ${randonName.ttype}`);
+  p.innerText = `${randonName.tbuilder} ${randonName.ttype}`;
 });
