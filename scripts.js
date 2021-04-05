@@ -19,6 +19,6 @@ form.addEventListener("submit", (event) => {
 document.querySelector(".button--jumbo").addEventListener("click", () => {
   const randomNum = getRandomIntInclusive(0, trains.length - 1);
 
-  // TODO: Use a template literals and interpolation to assemble the name as a string
+  // TODO: Use a template literal and interpolation to assemble the name as a string
   console.log(trains[randonNum]);
 });
