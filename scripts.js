@@ -7,7 +7,7 @@ const trains = [];
 function getRandomIntInclusive(min, max) {
   const currentMin = min;
   const currentMax = Math.floor(max);
-  return Math.floor(Math.random() * (currentMax - currentMin + 1) + min);
+  return Math.floor(Math.random() * (currentMax - currentMin + 1) + currentMin);
   // The maximum and minimum are both inclusive
 }
 
