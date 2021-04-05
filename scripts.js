@@ -11,7 +11,7 @@ function getRandomIntInclusive(min, max) {
   // The maximum and minimum are both inclusive
 }
 
-form.AddEventListener("submit", (event) => {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
 });
 
