@@ -17,10 +17,9 @@ form.addEventListener("submit", (event) => {
 });
 
 document.querySelector(".button--jumbo").addEventListener("click", () => {
-  const randomNum = getRandomIntInclusive(0, trains.length - 1);
+  // Get a random train object in the `trains` array
+  const randomName = trains[getRandomIntInclusive(0, trains.length - 1)];
 
-  // TODO: Use a template literal and interpolation to assemble the name as a string
-  const randomName = students[randomNum];
+  // Log the builder and type of the train using a template literal
   console.log(`${randonName.tbuilder} ${randonName.ttype}`);
-  //
 });
