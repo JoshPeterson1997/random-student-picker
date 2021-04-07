@@ -1,3 +1,9 @@
+.root {
+  --small-gap: 4px;
+  --medium-gap: 8px;
+  --large-gap: 16px;
+}
+
 form {
   border: solid thin black;
   border-radius: 16px;
