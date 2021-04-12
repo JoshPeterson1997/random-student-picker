@@ -2,6 +2,9 @@ const form = document.querySelector("form");
 const p = document.querySelector("p");
 const trains = [];
 
+document.body.appendChild(p);
+
+// Copied and pasted from MDN
 function getRandomIntInclusive(min, max) {
   const currentMin = Math.ceil(min);
   const currentMax = Math.floor(max);
