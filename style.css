@@ -8,8 +8,8 @@
 
 form {
   border: solid thin black;
-  border-radius: 16px;
-  gap: 16px;
+  border-radius: 4px;
+  gap: var(--small-gap);
   margin: auto 0;
   padding: 8px;
   width: 480px;
@@ -18,9 +18,9 @@ form {
 .button {
   background-color: lightblue;
   border: solid thin black;
-  border-radius: 16px;
+  border-radius: 4px;
   color: black;
-  margin-top: 16px;
+  margin-top: 8px;
   padding: 8px;
 }
 
