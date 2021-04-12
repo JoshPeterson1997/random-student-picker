@@ -16,6 +16,11 @@ function getRandomIntInclusive(min, max) {
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
+  /**
+   * 1. event.target is the form that got submitted
+   * 2. FormData uses values and name attributes from the form fields
+   * 3. Created a new object from the entries in the form
+   */
   const newTrain = Object.fromEntries(new FormData(event.target));
 
   trains.push(newTrain);
