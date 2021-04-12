@@ -28,9 +28,3 @@ document.querySelector(".button--jumbo").addEventListener("click", () => {
   // Log the builder and type of the train using a template literal
   p.innerText = `${randonName.tbuilder} ${randonName.ttype}`;
 });
-
-const root = document.querySelector(".root");
-
-document.querySelector("test").addEventListener("click", () => {
-  root.style.setProperty("--medium-gap", "100px");
-});
