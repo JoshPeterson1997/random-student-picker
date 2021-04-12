@@ -34,7 +34,7 @@ form {
 }
 
 .button--jumbo:hover,
-.buttom--jumbo:focus {
+.button--jumbo:focus {
   border-radius: 32px;
 }
 
