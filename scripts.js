@@ -12,6 +12,7 @@ function getRandomIntInclusive(min, max) {
   // The maximum and minimum are both inclusive
 }
 
+// "submit" is on the form NOT on a submit button
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
