@@ -31,5 +31,5 @@ document.querySelector(".button--jumbo").addEventListener("click", () => {
   const randomName = trains[getRandomIntInclusive(0, trains.length - 1)];
 
   // Log the builder and type of the train using a template literal
-  p.innerText = `${randonName.tbuilder} ${randonName.ttype}`;
+  p.innerText = `${randomName.tbuilder} ${randomName.ttype}`;
 });
