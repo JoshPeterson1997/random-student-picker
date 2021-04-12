@@ -10,7 +10,7 @@ form {
   border: solid thin black;
   border-radius: 4px;
   gap: var(--small-gap);
-  margin: auto 0;
+  margin: 0 auto;
   padding: 8px;
   width: 480px;
 }
